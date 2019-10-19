@@ -1,0 +1,132 @@
+.divfirst {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello {
+
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+}
+
+.Personal {
+    font-size: 80px;
+    color: #5bcbff;
+    text-align: center;
+}
+
+.dataPersonal {
+    top: 256px;
+    left: 70.4px;
+    width: 520px;
+    height: auto;
+    z-index: 2;
+    text-align: center;
+    transform-origin: 0px 0px;
+}
+
+.imgMe {
+
+    border-radius: 100%;
+    text-align: left;
+    padding: 50px 15px 15px 15px;
+    margin: 15px;
+}
+
+.imgEvo {
+    margin: 15px;
+    text-align: right;
+}
+
+.divsecond {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A405D
+}
+
+.divthird {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.textinwork {
+    color: brown;
+}
+
+.divfour {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: gray
+}
+
+.divfive {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgwu {
+    padding: 15px 15px 15px 15px;
+    margin: 15px;
+}
+
+.textedu {
+    padding: 30px 15px 15px 15px;
+    margin: 15px;
+}
+
+.imgwork {
+    align-items: left;
+    padding: 15px 0px 15px 15px;
+    margin: 15px;
+}
+
+.workex {
+    align-items: left;
+    padding: 30px 150px 15px 5px;
+    margin: 15px;
+}
+
+.imgmetro {
+    padding: 0px 15px 15px 0px;
+    margin: 15px;
+}
+
+.imgbaac {
+    padding: 0px 15px 15px 0px;
+    margin: 15px;
+}
+
+.imgskill1 {
+    padding: 15px 15px 15px 15px;
+    margin: 15px;
+}
+
+.imgskill2 {
+    padding: 15px 15px 15px 15px;
+    margin: 15px;
+}
+
+.imgskillgo {
+    padding: 50px 15px 15px 15px;
+    margin: 15px;
+}
+
+.imgskillmar {
+    padding: 0px 15px 15px 15px;
+    margin: 15px;
+}
+
+.imgcon {
+    padding: 0px 15px 15px 15px;
+    margin: 15px;
+}
