@@ -1,3 +1,20 @@
+.divtop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(194, 194, 99);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.divchange {
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
 .divcen {
     width: 100%;
     text-align: center;

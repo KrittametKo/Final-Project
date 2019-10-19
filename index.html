@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index.html</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./script.js" type="text/javascript"></script>
 
 </head>
 
 <body>
-
+    <div class="divtop" style="display: inline-flex">
+        <h6 onclick="ChangBGColor()" style="font-weight: bold;" class="divchange">chanhg BG color&nbsp; &nbsp;</h6>
+        <h6 onclick="ChangBGB()" style="font-weight: bold;" class="divchange">chanhg back&nbsp; &nbsp;</h6>
+        <h6 onclick="ChangName()" style="font-weight: bold;" class="divchange">!click me for change NAME&nbsp; &nbsp;
+        </h6>
+        <h6 onclick="ChangSurName()" style="font-weight: bold;" class="divchange">!click me for change SURNAME&nbsp;
+            &nbsp;</h6>
+        <h6 onclick="ChangNickName()" style="font-weight: bold;" class="divchange">!click me for change NICKNAME&nbsp;
+            &nbsp;</h6>
+    </div>
     <div id="first" class="divfirst">
         <div style="display: inline-flex" style="width: 100%;" class="divcen">
             <div class="divcen">
@@ -21,9 +33,12 @@
                 </h1>
 
                 <div>
-                    <p class="dataPersonal" style="color: rgb(0, 0, 0);">Name : Krittamet</p>
-                    <p class="dataPersonal" style="color: rgb(0, 0, 0);">Surname : Koomueang</p>
-                    <p class="dataPersonal" style="color: rgb(0, 0, 0);">Nickname : Hok</p>
+                    <h4 class="dataPersonal">NAME : </h4>
+                    <p id="name" class="dataPersonal" style="color: rgb(0, 0, 0);">Krittamet</p>
+                    <h4 class="dataPersonal">SURNAME : </h4>
+                    <p id="sname" class="dataPersonal" style="color: rgb(0, 0, 0);">Koomueang</p>
+                    <h4 class="dataPersonal">NICKNAME : </h4>
+                    <p id="nname" class="dataPersonal" style="color: rgb(0, 0, 0);">Hok</p>
                 </div>
 
                 <div class="divright">
@@ -31,7 +46,7 @@
                 </div>
             </div>
             <div class="divcen">
-                <img class="imgMe" src="./images/me.jpg">
+                <img onmouseover="move()" class="imgMe" src="./images/me.jpg">
             </div>
         </div>
     </div>
@@ -89,15 +104,21 @@
 
     <div id="four" class="divfour">
         <div style="font-family: Varela; text-align: center;" class="text-content">
-            <h1>Programing &amp; tools</h1>
+            <h1>Skills</h1>
+            <input type="text" id="input">
+            <button onclick="addskill()">Add skills</button>
+            <button onclick="deleteskill()">Delete skills</button>
+
         </div>
         <br>
         <div>
-            <p style="color: white;">Golang</p>
-            <p style="color: white;">Docker</p>
-            <p style="color: white;">MongoDB</p>
-            <p style="color: white;">MariaDB</p>
-            <p style="color: white;">git</p>
+            <ul id="list">
+                <li>Golang</li>
+                <li>Docker</li>
+                <li>MongoDB</li>
+                <li>MariaDB</li>
+                <li>git</li>
+            </ul>
         </div>
         <br>
 
